@@ -1,0 +1,47 @@
+/* Add your CSS styles to match the Figma design */
+/* Here's a basic example of styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.timer-input {
+    margin: 20px;
+}
+
+.timer-input input {
+    width: 60px;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.active-timers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+.timer.complete {
+    background-color: #4caf50;
+    color: white;
+}
+
+.timer button {
+    display: block;
+    margin-top: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
